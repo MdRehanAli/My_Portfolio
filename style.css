@@ -5,23 +5,30 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
+}
+
+.top {
+    margin-top: 100px;
 }
 
 .my_name {
     color: rgba(0, 255, 191, 0.76);
 }
 
-section {
+.flexible {
     display: flex;
     padding-right: 50px;
+}
+
+p {
     text-align: justify;
 }
 
 .half_width {
-    margin-top: 50px;
+
     width: 50%;
-    padding-left: 50px; 
+    padding-left: 50px;
 }
 
 .half_width img {
@@ -29,7 +36,7 @@ section {
 }
 
 h4 {
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(255, 155, 41);
 }
 
@@ -59,4 +66,39 @@ p {
     background-size: 150px;
     background-position: right;
     margin-bottom: 150px;
+}
+
+.section_3 {
+    background-image: url(banner_3.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    margin-bottom: 40px;
+}
+
+.exp {
+    color: rgb(59, 183, 255);
+    margin-left: 50px;
+}
+
+.experience{
+    width: 45%;
+    margin-left: 4%;
+    margin-right: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.border_1{
+    border-left: 5px solid gold;
+}
+
+.border_2{
+    border-left: 5px solid red;
+}
+
+footer p{
+    text-align: center;
 }
