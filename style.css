@@ -1,0 +1,62 @@
+body {
+    /*background-image: linear-gradient(rgb(145, 64, 161), rgb(127, 235, 100), rgb(255, 132, 132), rgb(255, 252, 51));*/
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.my_name {
+    color: rgba(0, 255, 191, 0.76);
+}
+
+section {
+    display: flex;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.half_width {
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 50px; 
+}
+
+.half_width img {
+    width: 600px;
+}
+
+h4 {
+    font-size: 35px;
+    color: rgb(255, 155, 41);
+}
+
+p {
+    font-size: 20px;
+}
+
+.hire_button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(251, 255, 0), rgb(0, 227, 243));
+    padding: 5px 15px;
+    color: purple;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.section_1 {
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    margin-bottom: 150px;
+}
+
+.section_2 {
+    background-image: url(banner_2.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: right;
+    margin-bottom: 150px;
+}
